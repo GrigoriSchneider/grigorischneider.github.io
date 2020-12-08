@@ -1,0 +1,166 @@
+.card{
+    
+    
+    background-color: $color-white;
+    position: relative;
+    display: grid;
+       
+   
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+
+    &__picture{
+        
+        background-size: cover;
+        height: 15rem;
+        width: 19rem;
+        
+        background-blend-mode: screen;
+         -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 93%, 0 100%);
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+
+        @media only screen and (min-width: $ipad) {
+            height: 20rem;
+            width: 21rem;
+  
+        }
+        @media only screen and (min-width: $ipadpro) {
+            width: 29rem;
+        }
+        @media only screen and (min-width: $screen) {
+            width: 24rem;
+        }
+        @media only screen and (min-width: $bigscreen){
+            width: 26rem;
+        }
+      
+     
+
+        &--1 {
+            background-image:   linear-gradient(
+                to right bottom,
+                $color-primary-light,
+                $color-primary-dark
+            ), url(../img/webappdashboard.jpg);
+        }
+
+        &--2 {
+            background-image:   linear-gradient(
+                to right bottom,
+                $color-primary-light,
+                $color-primary-dark
+            ), url(../img/employee_overlay.jpg);
+        }
+        
+        &--3 {
+            background-image:   linear-gradient(
+                to right bottom,
+                $color-primary-light,
+                $color-primary-dark
+            ), url(../img/wheelofsuccess.jpg);
+        }
+
+        &--4 {
+            background-image:   linear-gradient(
+                to right bottom,
+                $color-primary-light,
+                $color-primary-dark
+            ), url(../img/nexter.jpg);
+        }
+
+        &--5 {
+            background-image:   linear-gradient(
+                to right bottom,
+                $color-primary-light,
+                $color-primary-dark
+            ), url(../img/trillo.jpg);
+        }
+        &--6 {
+            background-image:   linear-gradient(
+                to right bottom,
+                $color-primary-light,
+                $color-primary-dark
+            ), url(../img/mobileapp.jpg);
+        }
+    }
+    
+    // 
+    //  card heading
+    // 
+
+    &__heading {
+        font-size: 2rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-align: right;
+        color: $color-white;
+        position: absolute;
+        top: 7rem;
+        right: 1rem;
+        width: 75%;
+        line-height: 2.4rem;
+    }
+    &__heading-span{
+        padding: 0.5rem .7rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+
+        &--1 {
+            background-image: linear-gradient(
+            to right bottom,
+            rgba($color-secondary-light, 0.85),
+            rgba($color-secondary-dark, 0.85)
+            );
+        }
+    }
+
+    // card text
+
+    &__text{
+        margin: 2rem 1.5rem;
+    }
+
+    &__details{
+        display: grid;
+        font-size: 3rem;
+        grid-template-columns: repeat(4, 75px);
+        
+        justify-items: center;
+        justify-self: center;
+    }
+
+    &__cta{
+        clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+        background-image: linear-gradient(
+            to right bottom,
+            rgba($color-secondary-light, 0.85),
+            rgba($color-secondary-dark, 0.85)
+          );
+        padding:3rem 4rem 2rem;
+        border-radius: 3px;
+        
+
+        display: grid;
+        
+        
+        grid-column-gap: 1.5rem;
+        grid-template-rows: 4rem 4rem;
+
+        
+        grid-template-rows: 5rem;
+        @media only screen and (min-width: $ipadpro){
+           grid-template-columns: 2rem 7rem 7rem;
+           padding: 2rem 2.5rem 1rem;
+           grid-template-rows: 3.5rem;
+
+            .btn1{
+                grid-column: 2/3;
+            }
+            .btn2{
+                grid-column: 3/4;
+            }
+        }
+    }
+}

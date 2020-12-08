@@ -1,0 +1,14 @@
+footer{
+    background-color: $color-grey-dark;
+    color: $color-white;
+    display: grid;
+    justify-items: center;
+    
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    @media only screen and (min-width: $screen) {
+        width: 93vw;
+    }
+
+  
+}
