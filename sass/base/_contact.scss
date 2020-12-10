@@ -23,7 +23,7 @@
     .heading-secondary{
         place-self: center;
         margin-top: 5rem;
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
 
         @media only screen and (min-width: $ipad){
             grid-column: 1/3;
@@ -50,11 +50,12 @@
         &-card{
             display: grid;
             grid-template-columns: .8fr 1.2fr;
-            grid-template-rows: 5rem;
+            grid-template-rows: 3.5rem;
             align-items: center;
             
             @media only screen and (min-width: $ipad){
                 grid-column: 2/3;
+                grid-template-rows: 5rem;
             }
     
         }
