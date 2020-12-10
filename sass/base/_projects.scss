@@ -1,9 +1,12 @@
 .section-projects{
-    padding: 2rem;
+    
     display: grid;
 
     grid-template-rows: 5rem auto;
     row-gap: 2rem;
+    @media only screen and (min-width: 360px){
+        padding: 2rem;
+    }
 
     @media only screen and (min-width: $ipad){
         grid-template-columns: 21rem  21rem;
