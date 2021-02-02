@@ -84,6 +84,13 @@
                 $color-primary-dark
             ), url(../img/mobileapp.jpg);
         }
+        &--7 {
+            background-image:   linear-gradient(
+                to right bottom,
+                $color-primary-light,
+                $color-primary-dark
+            ), url(../img/reservia.jpg);
+        }
     }
     
     // 
