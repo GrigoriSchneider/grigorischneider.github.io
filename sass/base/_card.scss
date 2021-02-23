@@ -91,6 +91,13 @@
                 $color-primary-dark
             ), url(../img/reservia.jpg);
         }
+        &--8 {
+            background-image:   linear-gradient(
+                to right bottom,
+                $color-primary-light,
+                $color-primary-dark
+            ), url(../img/ohmyfood.jpg);
+        }
     }
     
     // 
