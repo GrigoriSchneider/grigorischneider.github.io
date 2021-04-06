@@ -98,6 +98,13 @@
                 $color-primary-dark
             ), url(../img/ohmyfood.jpg);
         }
+        &--9 {
+            background-image:   linear-gradient(
+                to right bottom,
+                $color-primary-light,
+                $color-primary-dark
+            ), url(../img/gameon.jpg);
+        }
     }
     
     // 
