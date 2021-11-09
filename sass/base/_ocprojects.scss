@@ -25,22 +25,27 @@
         grid-template-columns: 1fr 26rem  26rem 26rem  1fr;
 
         .card7{
-            grid-column: 2/3;
-        }
-        .card8{
-            grid-column: 4/5;
-            grid-row: 2;
-        }
-        .card9{
             grid-column: 3/4;
             
         }
-        .card10{
+        .card8{
             grid-column: 2/3;
+            grid-row: 3;
+            
         }
-    //     .card3{
-    //         grid-column: 4/5;
-    //     }
+        .card9{
+            grid-column: 4/5;
+            
+            
+        }
+        .card10{
+            grid-column: 3/4;
+            
+        }
+        .card11{
+            grid-column: 2/3;
+            
+        }
     //     .card4{
     //         grid-column: 2/3;
     //     }

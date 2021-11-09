@@ -311,6 +311,8 @@ body {
       background-image: linear-gradient(to right bottom, #4073ff, #0c40cf), url(../img/gameon.jpg); }
     .card__picture--10 {
       background-image: linear-gradient(to right bottom, #4073ff, #0c40cf), url(../img/fisheye.jpg); }
+    .card__picture--11 {
+      background-image: linear-gradient(to right bottom, #4073ff, #0c40cf), url(../img/search_tool.jpg); }
   .card__heading {
     font-size: 2rem;
     font-weight: 300;
@@ -407,13 +409,15 @@ body {
       row-gap: 3rem;
       grid-template-columns: 1fr 26rem  26rem 26rem  1fr; }
       .section-oc .card7 {
-        grid-column: 2/3; }
-      .section-oc .card8 {
-        grid-column: 4/5;
-        grid-row: 2; }
-      .section-oc .card9 {
         grid-column: 3/4; }
+      .section-oc .card8 {
+        grid-column: 2/3;
+        grid-row: 3; }
+      .section-oc .card9 {
+        grid-column: 4/5; }
       .section-oc .card10 {
+        grid-column: 3/4; }
+      .section-oc .card11 {
         grid-column: 2/3; } }
   .section-oc .heading-secondary {
     place-self: center; }
