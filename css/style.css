@@ -253,6 +253,9 @@ body {
     position: absolute;
     top: 25%;
     left: 5%; }
+    .header__text-box .txt {
+      display: block;
+      height: 2rem; }
     @media only screen and (min-width: 768px) {
       .header__text-box {
         top: 47%;
